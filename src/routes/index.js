@@ -1,5 +1,6 @@
 import React from 'react';
 import { Switch } from 'react-router-dom';
+// eslint-disable-next-line no-unused-vars
 import { toast } from 'react-toastify';
 
 import MyRoute from './MyRoute';
@@ -12,7 +13,7 @@ import Register from '../pages/Register';
 import Page404 from '../pages/Page404';
 
 export default function Routes() {
-  toast.success('Oie, sucesso');
+  // toast.success('Oie, sucesso');
 
   return (
     <Switch>
